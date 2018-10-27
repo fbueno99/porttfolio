@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+.interface{
+	width: 700px;
+	margin-top: -27px;
+	margin-left: -8px;
+	height: 850px;
+
+}
+
+.interface p{
+	padding-left: 5px;
+	text-indent: 12px;
+}
+
+div#titulo{
+	color: white;
+	font-size: 25px;
+	text-indent: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: blue;
+
+}
+
+div#barra_cinza{
+	background-color: #dddddd;
+	font-size: 20px;
+}
+
+div#barra_cinza a{
+	text-decoration: none;
+	color: blue;
+}
+
+div#barra_cinza a:hover{
+	text-decoration: underline;
+}
+
+div#info{
+	font-size: 30px;
+	display: block;
+	text-align: justify;
+	width: 550px;
+}
+
+div#contato{
+	position: absolute;
+	font-size: 20px;
+	top: 107px;
+	right: 675px;
+
+}
+
+
+div#imagem{
+	position: absolute;
+	bottom: -160px;
+	left: 50px;
+}
+
+div#sit{
+	position: absolute;
+	left: 80px;
+	bottom: -50px;
+}
+
+div#sit a{
+	text-decoration: none;
+	color: blue;
+}
+
+div#sit a:hover{
+	text-decoration: underline;
+}
+

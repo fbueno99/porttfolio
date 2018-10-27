@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+{% load static %}
+<head>
+	<meta charset="UTF-8"/>
+	<title>{% block title %}Portfólio{% endblock %}</title>
+	{% block style %}
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="{% static 'mysite/pequeno.css' %}">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 800px)" href="{% static 'mysite/grande2.css' %}">
+	{% endblock %}
+</head>
+<body>
+	<div class="interface">
+	<div id="titulo">
+		<h1>Bem vindo(a)!</h1>
+	</div>
+	<div id="barra_cinza">
+		Mudar idioma: <a id="engl" href="{% url 'index' %}">Inglês</a> 
+		<address>
+			E-mail para contato: fb99@protonmail.com
+		</address>
+	</div>
+	<div id="sit">
+			Alguns sites feitos por mim:
+			<a href="">LINK</a>
+			<a href="">LINK</a>
+	</div>
+	<div id="info">
+		<br/>
+		<p class="espe">Olá, meu nome é Felipe. Sou um estudante de programação, estudando atualmente: Html, Css, JavaScript, Python e outras tecnologias.</p>
+		<br/>
+		<p>Este site é um portfólio construído em Html, Css e Django.</p>
+	</div>
+</div>
+</body>
+</html>

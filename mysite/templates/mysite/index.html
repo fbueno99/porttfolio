@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+{% load static %}
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>{% block title %}Portfolio{% endblock %}</title>
+	{% block style %}
+	<!--
+	<link rel="stylesheet" type="text/css" href="{% static 'mysite/port_estilo.css' %}">
+	<title>Portfolio</title>-->
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="{% static 'mysite/pequeno.css' %}">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 800px)" href="{% static 'mysite/grande2.css' %}">
+	<!--<link rel="stylesheet" type="text/css" media="screend and (min-width: 1000px)" href="grande.css">-->
+	{% endblock %}
+</head>
+<body>
+	<div class="interface">
+	<div id="titulo">
+		<h1>Welcome!</h1>
+	</div>
+	<div id="barra_cinza">
+		Change language: <a id="engl" href="{% url 'port' %}">Portuguese</a>
+		<address>
+			Contact e-mail: fb99@protonmail.com
+		</address>
+	</div>
+	<div id="sit">
+		Some websites made by me: <a href="">LINK</a> <a href="">LINK</a>
+	</div>
+	<div id="info">
+		<br/>
+		<p class="espe">Hello, my name is Felipe. I am programming student, currently studying: Html, Css, JavaScript, Python and other technologies.</p>
+		<br/>
+		<p>This website is a portfolio built in Html, Css and Django.</p>
+	</div>
+</div>
+</body>
+</html>

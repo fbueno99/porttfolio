@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+{% style block %}
+
+.interface{
+	margin-top: -8px;
+	margin-left: -3px;
+	background-image: url("fundo2.jpg");
+	margin-right: -8px;
+	margin-bottom: -10px;
+	height: 100%;
+	width: 100%;
+	border: solid 1px;
+	box-shadow: 3px 3px 3px 3px black;
+}
+
+
+div#titulo{
+	color: white;
+	font-size: 25px;
+	text-indent: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: blue;
+	text-align: justify;
+
+}
+
+
+
+div#barra_cinza{
+	background-color: #dddddd;
+	font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	text-align: justify;
+
+
+}
+
+div#barra_cinza a{
+	text-decoration: none;
+	color: blue;
+}
+
+div#barra_cinza a:hover{
+	text-decoration: underline;
+}
+
+div#barra_cinza address{
+	float: right;
+	padding-right: 100px;
+}
+
+
+div#info{
+	font-size: 30px;
+	text-align: justify;
+	padding-bottom: 110px;
+}
+
+.espe{
+	text-indent: 20px;
+}
+
+div#sit{
+	font-size: 23px;
+	padding-bottom: 1px;
+	background-color: rgb(98, 98, 98);
+	color: white;
+}
+
+div#sit a{
+	text-decoration: none;
+	color: blue;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+div#sit a:hover{
+	text-decoration: underline;
+}
+/*
+div#sit li{
+	padding-bottom: 20px;
+	list-style: none;
+}
+*/
+{% endblock %}
