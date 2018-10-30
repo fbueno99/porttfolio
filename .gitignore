@@ -4,6 +4,5 @@
 __pycache__
 myvenv
 db.sqlite3
-mysite/static/mysite
 .DS_Store
-portfolio/SECRET_KEY.txt
+*.txt
